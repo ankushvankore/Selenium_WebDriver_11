@@ -1,0 +1,29 @@
+package com.Assignments;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		List<String>students = new ArrayList<>();
+		students.add("Vinayak");
+		students.add("Pravin");
+		students.add("Vasundhara");
+		students.add("Pravin");
+		
+		//System.out.println(students.get(0));
+		
+		System.out.println("Total Elements in List: " + students.size());
+		
+		//for(int i = 0; i < students.size(); i++)
+		//		System.out.println(students.get(i));
+		
+		for(String s : students)
+			System.out.println(s);
+		
+		
+		
+	}
+
+}
