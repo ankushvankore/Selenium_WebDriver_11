@@ -40,6 +40,9 @@ public class D19HandlingListBox {
 		//cars.deselectByIndex(1);
 		//cars.deselectByValue("swiftx");
 		cars.deselectByVisibleText("Swift");
+		
+		new Select(driver.findElement(By.id("drop1"))).selectByVisibleText("doc 2");
+		System.out.println(new Select(driver.findElement(By.id("drop1"))).getFirstSelectedOption().getText());
 	}
 
 }
