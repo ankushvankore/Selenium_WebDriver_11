@@ -1,6 +1,6 @@
-package com.WebDriverDemos;
+package com.Assignments;
 
-public class D12LocateByXPath_Absolute {
+public class RandomClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

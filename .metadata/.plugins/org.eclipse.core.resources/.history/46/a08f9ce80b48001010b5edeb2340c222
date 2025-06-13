@@ -1,0 +1,12 @@
+package com.Assignments;
+
+import java.util.Random;
+
+public class RandomClass {
+
+	public static void main(String[] args) {
+		Random rnd = new Random();
+		rnd.nextInt(5);
+	}
+
+}
