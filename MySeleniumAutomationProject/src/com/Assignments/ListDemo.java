@@ -1,6 +1,7 @@
 package com.Assignments;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListDemo {
@@ -11,6 +12,7 @@ public class ListDemo {
 		students.add("Pravin");
 		students.add("Vasundhara");
 		students.add("Pravin");
+		students.add("Ankush");
 		
 		//System.out.println(students.get(0));
 		
@@ -21,6 +23,19 @@ public class ListDemo {
 		
 		for(String s : students)
 			System.out.println(s);
+		
+		Collections.sort(students);
+		
+		System.out.println(students);
+		
+		List<Integer>nos = new ArrayList<>();
+		nos.add(11);
+		nos.add(1);
+		nos.add(444);
+		nos.add(3);
+			
+		Collections.sort(nos);
+		System.out.println(nos);
 	}
 
 }
