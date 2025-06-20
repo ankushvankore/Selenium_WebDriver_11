@@ -1,0 +1,57 @@
+package com.WebDriverDemos;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class D26HandlingFileUpload {
+
+	public static void main(String[] args) {
+		WebDriver driver = new EdgeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+		driver.get("https://demoqa.com/automation-practice-form");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		js.executeScript("window.scrollBy(0,400)", "");
+		
+		driver.findElement(By.id("firstName")).sendKeys("Ankush");
+		driver.findElement(By.id("lastName")).sendKeys("Vankore");
+		driver.findElement(By.id("userEmail")).sendKeys("ankushvankore@gmail.com");
+		js.executeScript("arguments[0].click()", driver.findElement(By.id("gender-radio-1")));
+		driver.findElement(By.id("userNumber")).sendKeys("9890742718");
+		/*driver.findElement(By.id("dateOfBirthInput")).click();
+		new Select(driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/select"))).selectByVisibleText("January");
+		new Select(driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select"))).selectByVisibleText("1979");
+		driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[2]")).click();*/
+		driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.CONTROL + "A");
+		driver.findElement(By.id("dateOfBirthInput")).sendKeys("29 Jan 1979");
+		driver.findElement(By.xpath("//*[@id=\"subjectsWrapper\"]/div[1]")).click();
+		driver.findElement(By.id("subjectsInput")).sendKeys("H");
+		js.executeScript("window.scrollBy(0,300)", "");
+		js.executeScript("arguments[0].click()", driver.findElement(By.id("react-select-2-option-0")));
+		js.executeScript("arguments[0].click()", driver.findElement(By.id("hobbies-checkbox-3")));
+		driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\Dell\\Downloads\\02 4x6  1.jpg");
+		driver.findElement(By.id("currentAddress")).sendKeys("Pattankodoli");
+		driver.findElement(By.xpath("//*[@id=\"state\"]/div[1]/div[2]/div")).click();
+		driver.findElement(By.xpath("//*[@id=\"react-select-3-option-0\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"city\"]/div/div[2]/div")).click();
+		driver.findElement(By.xpath("//*[@id=\"react-select-4-option-0\"]")).click();
+		driver.findElement(By.id("submit")).submit();
+		
+		List<WebElement>table = driver.findElements(By.xpath("/html/body/div[5]/div/div/div[2]/div/table/tbody/tr"));
+		for(WebElement t : table)
+			System.out.println(t.getText());
+		
+		js.executeScript("arguments[0].click()", driver.findElement(By.id("closeLargeModal")));
+		
+	}
+
+}
