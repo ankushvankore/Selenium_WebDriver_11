@@ -1,0 +1,25 @@
+package com.WebDriverDemos;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class D27RobotClass {
+
+	public static void main(String[] args) {
+		WebDriver driver = new EdgeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+		driver.get("https://sampleapp.tricentis.com/101/index.php");
+		
+		driver.findElement(By.partialLinkText("Auto")).click();
+		driver.findElement(By.partialLinkText("Insurant")).click();
+		driver.findElement(By.id("open")).click();
+		
+		
+	}
+
+}

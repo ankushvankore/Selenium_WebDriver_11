@@ -1,0 +1,23 @@
+package com.Assignments;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		Set<String>students = new HashSet<>();
+		students.add("Vinayak");
+		students.add("Pravin");
+		students.add("Vinayak");
+		
+		System.out.println(students);
+		
+		for(String s : students)
+			System.out.println(s);
+		
+		Iterator<String>itr = students.iterator();
+	}
+
+}

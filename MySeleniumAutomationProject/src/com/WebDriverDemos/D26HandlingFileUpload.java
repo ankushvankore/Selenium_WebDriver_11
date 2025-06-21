@@ -42,6 +42,7 @@ public class D26HandlingFileUpload {
 		driver.findElement(By.id("currentAddress")).sendKeys("Pattankodoli");
 		driver.findElement(By.xpath("//*[@id=\"state\"]/div[1]/div[2]/div")).click();
 		driver.findElement(By.xpath("//*[@id=\"react-select-3-option-0\"]")).click();
+		
 		driver.findElement(By.xpath("//*[@id=\"city\"]/div/div[2]/div")).click();
 		driver.findElement(By.xpath("//*[@id=\"react-select-4-option-0\"]")).click();
 		driver.findElement(By.id("submit")).submit();

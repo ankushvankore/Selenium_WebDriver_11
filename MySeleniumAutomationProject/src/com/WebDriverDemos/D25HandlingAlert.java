@@ -25,13 +25,16 @@ public class D25HandlingAlert {
 		Alert alt;
 		
 		js.executeScript("window.scrollBy(0, 100)", "");
-		driver.findElement(By.id("alertButton")).click();
+		
+		js.executeScript("arguments[0].click(), arguments[1].click()", driver.findElement(By.id("alertButton")),driver.findElement(By.id("timerAlertButton")));
+		
+		//driver.findElement(By.id("alertButton")).click();
 		alt = driver.switchTo().alert();
 		System.out.println(alt.getText());
 		Thread.sleep(2000);
 		alt.accept();			//Clicks on Ok button
 		
-		driver.findElement(By.id("timerAlertButton")).click();
+		//driver.findElement(By.id("timerAlertButton")).click();
 		//Thread.sleep(5000);
 		//alt = driver.switchTo().alert();
 		alt = wait.until(ExpectedConditions.alertIsPresent());
