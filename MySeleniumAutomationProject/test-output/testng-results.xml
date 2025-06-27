@@ -2,68 +2,100 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-26T10:36:36 IST" name="Default suite" finished-at="2025-06-26T10:36:54 IST" duration-ms="17453">
+  <suite started-at="2025-06-27T10:03:45 IST" name="Default suite" finished-at="2025-06-27T10:04:03 IST" duration-ms="18083">
     <groups>
     </groups>
-    <test started-at="2025-06-26T10:36:36 IST" name="Default test" finished-at="2025-06-26T10:36:54 IST" duration-ms="17453">
-      <class name="com.TestNGDemos.D04Before_AfterMethod">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:37 IST" name="launchBrowser" finished-at="2025-06-26T10:36:40 IST" duration-ms="3038" status="PASS">
+    <test started-at="2025-06-27T10:03:45 IST" name="Default test" finished-at="2025-06-27T10:04:03 IST" duration-ms="18083">
+      <class name="com.TestNGDemos.D06DataProviderDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:45 IST" name="beforeTest" finished-at="2025-06-27T10:03:52 IST" duration-ms="7108" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:40 IST" name="beforeMethod" finished-at="2025-06-26T10:36:40 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:52 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-27T10:03:53 IST" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testDcathlon()[pri:1, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:40 IST" name="testDcathlon" finished-at="2025-06-26T10:36:41 IST" duration-ms="1101" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:53 IST" name="logout" finished-at="2025-06-27T10:03:56 IST" duration-ms="2930" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDcathlon -->
-        <test-method is-config="true" signature="printTitle()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:41 IST" name="printTitle" finished-at="2025-06-26T10:36:42 IST" duration-ms="1342" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:56 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-27T10:03:57 IST" duration-ms="634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pravin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pravin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printTitle -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:42 IST" name="beforeMethod" finished-at="2025-06-26T10:36:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:57 IST" name="logout" finished-at="2025-06-27T10:03:58 IST" duration-ms="1140" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testFlipkart()[pri:2, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:42 IST" name="testFlipkart" finished-at="2025-06-26T10:36:45 IST" duration-ms="3181" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:58 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-27T10:03:58 IST" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFlipkart -->
-        <test-method is-config="true" signature="printTitle()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:45 IST" name="printTitle" finished-at="2025-06-26T10:36:45 IST" duration-ms="215" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:03:58 IST" name="logout" finished-at="2025-06-27T10:04:01 IST" duration-ms="2661" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printTitle -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:45 IST" name="beforeMethod" finished-at="2025-06-26T10:36:45 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:04:01 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-27T10:04:02 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinayak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinayak123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMyntra()[pri:3, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:45 IST" name="testMyntra" finished-at="2025-06-26T10:36:46 IST" duration-ms="429" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:04:02 IST" name="logout" finished-at="2025-06-27T10:04:03 IST" duration-ms="404" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMyntra -->
-        <test-method is-config="true" signature="printTitle()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:46 IST" name="printTitle" finished-at="2025-06-26T10:36:50 IST" duration-ms="3652" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@5542c4ed]" started-at="2025-06-27T10:04:03 IST" name="afterTest" finished-at="2025-06-27T10:04:03 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printTitle -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:50 IST" name="beforeMethod" finished-at="2025-06-26T10:36:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testAmazon()[pri:4, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:50 IST" name="testAmazon" finished-at="2025-06-26T10:36:53 IST" duration-ms="3169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAmazon -->
-        <test-method is-config="true" signature="printTitle()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:53 IST" name="printTitle" finished-at="2025-06-26T10:36:53 IST" duration-ms="255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printTitle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.TestNGDemos.D04Before_AfterMethod@3c41ed1d]" started-at="2025-06-26T10:36:53 IST" name="closeBrowser" finished-at="2025-06-26T10:36:54 IST" duration-ms="913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.TestNGDemos.D04Before_AfterMethod -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNGDemos.D06DataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
