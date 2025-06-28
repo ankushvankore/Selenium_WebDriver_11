@@ -19,15 +19,15 @@ public class D05FlipkartAssignment {
 	
 	@Test(priority = 1)
 	public void clickOnMobile() {
-		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div[1]/div/div/div/div/div[1]/a[2]/div/div/span/span")));
+		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Mobile\")]")));
 	}
 	@Test(priority = 2)
 	public void clickOnAppliences() {
-		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div[1]/div/div/div/div/div[1]/a[3]/div/div/span/span")));
+		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Appliances\")]")));
 	}
 	@Test(priority = 3)
 	public void clickOnFlight() {
-		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div[1]/div/div/div/div/div[1]/a[4]/div/div/span/span")));
+		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Flight\")]")));
 	}
 	@Test(priority = 4)
 	public void clickOnGrocary() {

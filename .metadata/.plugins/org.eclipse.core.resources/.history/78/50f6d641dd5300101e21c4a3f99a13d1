@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Execute Class">
+	<test name = "Flipkart Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05FlipkartAssignment">
+			</class>
+		</classes>
+	</test>
+</suite>
