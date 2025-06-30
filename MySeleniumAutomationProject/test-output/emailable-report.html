@@ -8,50 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Execute Class</th></tr>
-<tr><td><a href="#t0">Flipkart Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">56,729</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,201</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Execute Class</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Flipkart Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.TestNGDemos.D07AssertionDemo</td><td><a href="#m0">logout</a></td><td rowspan="1">1751087071336</td><td rowspan="1">10057</td></tr><tr><th colspan="4">Flipkart Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.TestNGDemos.D07AssertionDemo</td><td><a href="#m1">loginToOHRM</a></td><td rowspan="3">1751087064834</td><td rowspan="3">1397</td></tr><tr class="failedeven"><td><a href="#m2">loginToOHRM</a></td></tr><tr class="failedeven"><td><a href="#m3">loginToOHRM</a></td></tr><tr><th colspan="4">Flipkart Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.TestNGDemos.D05FlipkartAssignment</td><td><a href="#m4">clickOnAppliences</a></td><td rowspan="1">1751087046740</td><td rowspan="1">2880</td></tr><tr class="passedeven"><td><a href="#m5">clickOnFlight</a></td><td rowspan="1">1751087052509</td><td rowspan="1">2605</td></tr><tr class="passedeven"><td><a href="#m6">clickOnGrocary</a></td><td rowspan="1">1751087058245</td><td rowspan="1">1956</td></tr><tr class="passedeven"><td><a href="#m7">clickOnMobile</a></td><td rowspan="1">1751087040850</td><td rowspan="1">2910</td></tr><tr class="passedodd"><td rowspan="1">com.TestNGDemos.D07AssertionDemo</td><td><a href="#m8">loginToOHRM</a></td><td rowspan="1">1751087060279</td><td rowspan="1">2203</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.TestNGDemos.D09KeywordDrivenFramework</td><td><a href="#m0">registration</a></td><td rowspan="1">1751257679470</td><td rowspan="1">1362</td></tr></tbody>
 </table>
-<h2>Flipkart Test</h2><h3 id="m0">com.TestNGDemos.D07AssertionDemo#logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;app&quot;]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p&quot;}
-  (Session info: MicrosoftEdge=138.0.3351.55)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b0a823ed292bae99f4520efdb4a9249b, findElement {value=//*[@id=&quot;app&quot;]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.55, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63183}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63183/devtoo..., se:cdpVersion: 138.0.3351.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b0a823ed292bae99f4520efdb4a9249b
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at com.TestNGDemos.D07AssertionDemo.logout(D07AssertionDemo.java:46)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.TestNGDemos.D07AssertionDemo#loginToOHRM</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>pravin</td><td>pravin123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Invalid credentials!!! expected [true] but found [false]
-	at com.TestNGDemos.D07AssertionDemo.loginToOHRM(D07AssertionDemo.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.TestNGDemos.D07AssertionDemo#loginToOHRM</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Invalid credentials!!! expected [true] but found [false]
-	at com.TestNGDemos.D07AssertionDemo.loginToOHRM(D07AssertionDemo.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.TestNGDemos.D07AssertionDemo#loginToOHRM</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>vinayak</td><td>vinayak123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Invalid credentials!!! expected [true] but found [false]
-	at com.TestNGDemos.D07AssertionDemo.loginToOHRM(D07AssertionDemo.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.TestNGDemos.D05FlipkartAssignment#clickOnAppliences</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.TestNGDemos.D05FlipkartAssignment#clickOnFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.TestNGDemos.D05FlipkartAssignment#clickOnGrocary</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.TestNGDemos.D05FlipkartAssignment#clickOnMobile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.TestNGDemos.D07AssertionDemo#loginToOHRM</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.TestNGDemos.D09KeywordDrivenFramework#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

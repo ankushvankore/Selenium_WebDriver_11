@@ -17,35 +17,35 @@ public class D05FlipkartAssignment {
 	WebDriver driver;
 	JavascriptExecutor js;
 	
-	@Test(priority = 1)
+	@Test(priority = 1, groups = "Group1")
 	public void clickOnMobile() {
 		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Mobile\")]")));
 	}
-	@Test(priority = 2)
+	@Test(priority = 2, groups = "Group1")
 	public void clickOnAppliences() {
 		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Appliances\")]")));
 	}
-	@Test(priority = 3)
+	@Test(priority = 3, groups = "Group2")
 	public void clickOnFlight() {
 		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Flight\")]")));
 	}
-	@Test(priority = 4)
+	@Test(priority = 4, groups = "Group2")
 	public void clickOnGrocary() {
 		js.executeScript("arguments[0].click()", driver.findElement(By.xpath("//span[contains(text(), \"Grocery\")]")));
 	}
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void beforeMethod() {
 		driver.get("https://www.flipkart.com/");
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void afterMethod() {
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest(alwaysRun = true)
 	public void beforeTest() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -53,7 +53,7 @@ public class D05FlipkartAssignment {
 		js = (JavascriptExecutor) driver;
 	}
 
-	@AfterTest
+	@AfterTest(alwaysRun = true)
 	public void afterTest() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.close();

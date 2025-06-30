@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Executing Group">
+	<test name = "My Test">
+		<groups>
+			<run>
+				<include name = "Group1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "com.TestNGDemos.D05FlipkartAssignment"></class>
+		</classes>
+		
+	</test>
+</suite>
