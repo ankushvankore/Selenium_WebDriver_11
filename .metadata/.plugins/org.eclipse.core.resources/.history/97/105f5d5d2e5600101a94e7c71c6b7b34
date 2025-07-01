@@ -1,0 +1,29 @@
+package com.TestNGDemos;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class RediffUtility {
+	WebDriver driver;
+	
+	public void setFullName(String fn)
+	{
+		driver.findElement(By.xpath("")).sendKeys(fn);
+	}
+	public void chooseRediffId(String rid)
+	{
+		driver.findElement(By.xpath("")).sendKeys(rid);
+	}
+	public void choosePassword(String ps)
+	{
+		driver.findElement(By.xpath("")).sendKeys(ps);
+		driver.findElement(By.xpath("")).sendKeys(ps);
+	}
+	public void setBirthDate(String day, String month, String year)
+	{
+		new Select(driver.findElement(By.xpath(""))).selectByVisibleText(day);
+		new Select(driver.findElement(By.xpath(""))).selectByVisibleText(month);
+		new Select(driver.findElement(By.xpath(""))).selectByVisibleText(year);
+	}
+}
