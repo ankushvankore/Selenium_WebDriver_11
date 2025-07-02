@@ -2,42 +2,28 @@ package com.TestNGDemos;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 public class RediffUtility {
 	WebDriver driver;
 	
-	//Object Repository
-	@FindBy (css = "input[name^=\"name\"]")WebElement fullName;
-	@FindBy (xpath = "/html/body/div[2]/div[2]/form/div/div[3]/div/input")WebElement rediffId;
-	@FindBy (id = "newpasswd") WebElement password;
-	@FindBy (id = "newpasswd1") WebElement confirmPassword;
-	
-	public RediffUtility(WebDriver d) //Constructor
+	public RediffUtility(WebDriver d)
 	{
 		driver = d;
-		PageFactory.initElements(driver, this);
 	}
 	
 	public void setFullName(String fn)
 	{
-		//driver.findElement(By.xpath("//input[@placeholder='Enter your full name']")).sendKeys(fn);
-		fullName.sendKeys(fn);
+		driver.findElement(By.xpath("//input[@placeholder='Enter your full name']")).sendKeys(fn);
 	}
 	public void chooseRediffId(String rid)
 	{
-		//driver.findElement(By.xpath("/html/body/div[2]/div[2]/form/div/div[3]/div/input")).sendKeys(rid);
-		rediffId.sendKeys(rid);
+		driver.findElement(By.xpath("/html/body/div[2]/div[2]/form/div/div[3]/div/input")).sendKeys(rid);
 	}
 	public void choosePassword(String ps)
 	{
-		//driver.findElement(By.xpath("//*[@id=\"newpasswd\"]")).sendKeys(ps);
-		password.sendKeys(ps);
-		//driver.findElement(By.xpath("//*[@id=\"newpasswd1\"]")).sendKeys(ps);
-		confirmPassword.sendKeys(ps);
+		driver.findElement(By.xpath("//*[@id=\"newpasswd\"]")).sendKeys(ps);
+		driver.findElement(By.xpath("//*[@id=\"newpasswd1\"]")).sendKeys(ps);
 	}
 	public void setBirthDate(String day, String month, String year)
 	{
