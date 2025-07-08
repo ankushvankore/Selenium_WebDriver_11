@@ -1,9 +1,0 @@
-package com.TestNGDemos;
-
-import org.openqa.selenium.WebDriver;
-
-public class RediffUtility {
-	WebDriver driver;
-	
-	
-}

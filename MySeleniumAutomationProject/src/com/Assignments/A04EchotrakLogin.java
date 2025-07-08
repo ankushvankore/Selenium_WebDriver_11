@@ -24,6 +24,12 @@ public class A04EchotrakLogin {
 		String msg = errMsg.getText();
 		System.out.println("Error Message: " + msg);
 		
+		if(msg.contains("Invalid"))
+			System.out.println("Test case pass");
+		else
+			System.out.println("Test case  Fail");
+		
+		
 		driver.close();
 	}
 
