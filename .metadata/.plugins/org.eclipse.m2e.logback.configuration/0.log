@@ -646,3 +646,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.beanshell
 2025-07-11 10:27:33,070 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_11\MyMavenProject\src\test\resources
 2025-07-11 10:27:34,134 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_11\MyMavenProject\src\main\resources
 2025-07-11 10:27:34,135 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_11\MyMavenProject\src\test\resources
+2025-07-14 09:36:36,738 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
