@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="com.TestNGDemos.RediffUtility"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
-    <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
@@ -54,10 +53,11 @@
     <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.configuration.Theme"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.MarkupHelper"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.ExtentColor"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
 </qualifiedTypeNameHistroy>
