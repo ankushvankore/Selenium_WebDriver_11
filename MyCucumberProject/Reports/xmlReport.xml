@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="57.469">
+    <testcase classname="Login to Practice Test" name="Validate login process" time="10.74">
+        <system-out><![CDATA[Given Launch page "https://practice.expandtesting.com/login"................passed
+When I Enter username as "practice".........................................passed
+When I Enter password as "SuperSecretPassword!".............................passed
+And Click on Login button...................................................passed
+Then Home page should display...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to Practice Test" name="Validate login process 2" time="16.325">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given Launch page "https://practice.expandtesting.com/login"................passed
+When I Enter username as "vinayak"..........................................passed
+When I Enter password as "vinayak123".......................................passed
+And Click on Login button...................................................passed
+Then Home page should display...............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.StepDef.S04LoginToTest_DDF.home_page_should_display(S04LoginToTest_DDF.java:40)
+	at ✽.Home page should display(file:///D:/AViIT/Demos/Selenium_11/MyCucumberProject/src/test/resources/MyCucumberProject/MyCucumberProject/F04LoginToTest_DDF.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="Login to Practice Test" name="Validate login process 3" time="13.589">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given Launch page "https://practice.expandtesting.com/login"................passed
+When I Enter username as "pravin"...........................................passed
+When I Enter password as "pravin123"........................................passed
+And Click on Login button...................................................passed
+Then Home page should display...............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.StepDef.S04LoginToTest_DDF.home_page_should_display(S04LoginToTest_DDF.java:40)
+	at ✽.Home page should display(file:///D:/AViIT/Demos/Selenium_11/MyCucumberProject/src/test/resources/MyCucumberProject/MyCucumberProject/F04LoginToTest_DDF.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="Login to Practice Test" name="Validate login process 4" time="16.313">
+        <system-out><![CDATA[Given Launch page "https://practice.expandtesting.com/login"................passed
+When I Enter username as "practice".........................................passed
+When I Enter password as "SuperSecretPassword!".............................passed
+And Click on Login button...................................................passed
+Then Home page should display...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

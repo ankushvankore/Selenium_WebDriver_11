@@ -1,0 +1,371 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-22T05:13:01.988Z",
+        "line": 13,
+        "name": "Validate login process",
+        "description": "",
+        "id": "login-to-practice-test;validate-login-process;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6296507100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch page \"https://practice.expandtesting.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://practice.expandtesting.com/login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.launch_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1632144000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username as \"practice\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"practice\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192825700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password as \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2491291100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Login button",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28922300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Home page should display",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-22T05:13:12.768Z",
+        "line": 14,
+        "name": "Validate login process",
+        "description": "",
+        "id": "login-to-practice-test;validate-login-process;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11676450500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch page \"https://practice.expandtesting.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://practice.expandtesting.com/login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.launch_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217417800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username as \"vinayak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vinayak\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264499100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password as \"vinayak123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vinayak123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4145740400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Login button",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.StepDef.S04LoginToTest_DDF.home_page_should_display(S04LoginToTest_DDF.java:40)\r\n\tat ✽.Home page should display(file:///D:/AViIT/Demos/Selenium_11/MyCucumberProject/src/test/resources/MyCucumberProject/MyCucumberProject/F04LoginToTest_DDF.feature:9)\r\n",
+              "duration": 18087700,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Home page should display",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-22T05:13:29.141Z",
+        "line": 15,
+        "name": "Validate login process",
+        "description": "",
+        "id": "login-to-practice-test;validate-login-process;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4498994500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch page \"https://practice.expandtesting.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://practice.expandtesting.com/login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.launch_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5333928800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username as \"pravin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pravin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 284991000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password as \"pravin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pravin123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3459923600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Login button",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.StepDef.S04LoginToTest_DDF.home_page_should_display(S04LoginToTest_DDF.java:40)\r\n\tat ✽.Home page should display(file:///D:/AViIT/Demos/Selenium_11/MyCucumberProject/src/test/resources/MyCucumberProject/MyCucumberProject/F04LoginToTest_DDF.feature:9)\r\n",
+              "duration": 11009600,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Home page should display",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-22T05:13:42.742Z",
+        "line": 16,
+        "name": "Validate login process",
+        "description": "",
+        "id": "login-to-practice-test;validate-login-process;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3996486000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch page \"https://practice.expandtesting.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://practice.expandtesting.com/login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.launch_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7281092600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username as \"practice\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"practice\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 615758500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password as \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.StepDef.S04LoginToTest_DDF.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4402314700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Login button",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16954600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Home page should display",
+            "match": {
+              "location": "com.StepDef.S04LoginToTest_DDF.home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Practice Test",
+    "description": "",
+    "id": "login-to-practice-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MyCucumberProject/MyCucumberProject/F04LoginToTest_DDF.feature",
+    "tags": []
+  }
+]

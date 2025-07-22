@@ -9,7 +9,7 @@ import io.cucumber.java.Before;
 import static com.StepDef.S03TiraBeauty.*;
 
 public class RediffHooks {
-	@Before
+	//@Before
 	public void launchbrowser() {
 		driver = new ChromeDriver();
 	    driver.manage().window().maximize();
@@ -17,7 +17,7 @@ public class RediffHooks {
 	    
 	    driver.get("https://www.tirabeauty.com/");
 	}
-	@After
+	//@After
 	public void closeBrowser()
 	{
 		driver.close();
